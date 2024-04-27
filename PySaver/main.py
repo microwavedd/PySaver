@@ -4,7 +4,7 @@ from pygame.locals import *
 pygame.init()
 
 c = pygame.time.Clock()
-image = pygame.image.load("./PySaver/pylogo.png")
+image = pygame.image.load("pylogo.png")
 
 window = pygame.display.set_mode((1920,1080))
 trigger = True
